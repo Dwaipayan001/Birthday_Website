@@ -1,20 +1,16 @@
-# Birthday website
+# Birthday Letter
 
-A static, responsive birthday letter designed to feel warm, respectful, and personal.
+A personal birthday website built with Next.js and ready for Vercel.
 
-## Add her photograph
+## Run locally
 
-1. Put the photograph at `dist/her-photo.jpg`.
-2. In `dist/index.html`, replace the entire `<div class="portrait-placeholder">…</div>` block with:
-
-```html
-<img class="portrait-photo" src="her-photo.jpg" alt="A favourite photograph of her" />
+```bash
+npm install
+npm run dev
 ```
 
-3. Add this rule to `dist/styles.css`:
+Then open `http://localhost:3000`.
 
-```css
-.portrait-photo { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
-```
+## Deploy on Vercel
 
-Open `dist/index.html` in a browser to preview the site locally.
+Push this folder to GitHub, import the repository in Vercel, and keep the detected framework preset as **Next.js**. No environment variables or custom build settings are required.
