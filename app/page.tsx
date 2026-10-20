@@ -99,7 +99,12 @@ export default function Home() {
 
       <section className="letterSection" id="letter">
         <div className="letterHeading"><p className="eyebrow">The words I most wanted to say</p><h2>A letter, with<br />an open hand.</h2></div>
-        <article className="letter" lang="bn">
+        <article
+          className="letter"
+          lang="bn"
+          tabIndex={0}
+          aria-label="দেবারতির জন্য জন্মদিনের চিঠি—সম্পূর্ণ চিঠি পড়তে স্ক্রল কর"
+        >
           <p className="salutation">প্রিয় দেবারতি,</p>
           <p>
             তোর জন্মদিনে শুধু এটাই চাই—তুই অন্যদের জীবনে যে আনন্দ এত সহজে ছড়িয়ে দিস,
