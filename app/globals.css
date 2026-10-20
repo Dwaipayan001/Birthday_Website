@@ -15,6 +15,7 @@ h1,h2,h3{font-family:var(--display),serif;font-weight:500;line-height:1.02}h1{ma
 .letter[lang="bn"] .salutation{font:500 40px/1.4 var(--bengali),"Nirmala UI",serif}
 .letter[lang="bn"] .closing{font:600 32px/1.45 var(--bengali),"Nirmala UI",serif}
 .letter[lang="bn"] .signature{font-style:normal}
+.letter .relationshipNote{margin:38px -18px;padding:26px 28px;border-left:3px solid var(--rose);background:rgba(168,79,88,.07);color:var(--wine);font-weight:600}
 footer{display:flex;justify-content:space-between;gap:24px;padding:30px clamp(24px,7vw,112px);border-top:1px solid var(--line);color:var(--muted);font-size:10px;letter-spacing:.14em;text-transform:uppercase}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker>div{animation:none}}
 
@@ -82,6 +83,7 @@ footer{display:flex;justify-content:space-between;gap:24px;padding:30px clamp(24
   .interlude blockquote{padding-inline:22px}
   .songSection{padding:76px 18px}.songIntro{margin-bottom:34px}.songIntro h2{font-size:clamp(35px,10.8vw,48px)}.videoWrap{border-width:5px}
   .letter{padding:42px 26px}
+  .letter .relationshipNote{margin-inline:-10px;padding:22px 20px}
   .letter:before{inset:11px}
   .letter p{font-size:16px;line-height:1.8}
   .letter .salutation{font-size:36px}
