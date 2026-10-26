@@ -7,8 +7,8 @@ const sans = Manrope({ variable: "--sans", subsets: ["latin"], weight: ["300", "
 const bengali = Noto_Serif_Bengali({ variable: "--bengali", subsets: ["bengali"], weight: ["400", "500", "600"] });
 
 export const metadata: Metadata = {
-  title: "For You, On Your Birthday",
-  description: "A quiet birthday letter, written with admiration, gratitude, and no expectations.",
+  title: "For Debarati, From My Heart",
+  description: "A quiet letter written with honesty, admiration, and no expectations.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

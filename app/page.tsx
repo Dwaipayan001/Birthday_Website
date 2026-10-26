@@ -22,18 +22,18 @@ export default function Home() {
   return (
     <main>
       <header className="nav">
-        <a className="wordmark" href="#top" aria-label="Back to the beginning">12 / 01</a>
+        <a className="wordmark" href="#top" aria-label="Back to the beginning">D</a>
         <span>A small corner of the world, made for Debarati</span>
       </header>
 
       <section className="hero" id="top">
         <div>
-          <p className="eyebrow">For Debarati · January 12</p>
+          <p className="eyebrow">For Debarati · From my heart</p>
           <h1>Some people feel<br />like <em>home.</em></h1>
           <p className="intro">
             You are one of those rare people whose presence makes the noise in my mind grow quiet.
-            This is not a question, or a request. It is simply a celebration of you—and everything
-            your existence means to me.
+            This is not a question, or a request. It is simply an honest expression of everything
+            your presence has meant to me.
           </p>
           <a className="textLink" href="#letter">Read my letter <span>↓</span></a>
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       <div className="ticker" aria-hidden="true">
-        <div><span>HAPPY BIRTHDAY, DEBARATI</span><i>✦</i><span>TO THE KINDEST SOUL</span><i>✦</i><span>HAPPY BIRTHDAY, DEBARATI</span><i>✦</i><span>TO THE KINDEST SOUL</span><i>✦</i></div>
+        <div><span>FOR DEBARATI</span><i>✦</i><span>WORDS I NEEDED TO SAY</span><i>✦</i><span>FOR DEBARATI</span><i>✦</i><span>WORDS I NEEDED TO SAY</span><i>✦</i></div>
       </div>
 
       <section className="meaning">
@@ -103,14 +103,14 @@ export default function Home() {
           className="letter"
           lang="bn"
           tabIndex={0}
-          aria-label="দেবারতির জন্য জন্মদিনের চিঠি—সম্পূর্ণ চিঠি পড়তে স্ক্রল কর"
+          aria-label="দেবারতির জন্য চিঠি—সম্পূর্ণ চিঠি পড়তে স্ক্রল কর"
         >
           <p className="salutation">প্রিয় দেবারতি,</p>
           <p>
-            তোর জন্মদিনে শুধু এটাই চাই—তুই অন্যদের জীবনে যে আনন্দ এত সহজে ছড়িয়ে দিস,
-            সেই আনন্দই যেন আজ তোকে চারদিক থেকে ঘিরে রাখে। তোর জীবনের এই নতুন বছরটা যেন
-            তোর প্রতি খুব নরম হয়, সুন্দর সব চমক নিয়ে আসে, আর তোকে বারবার সেই অসম্ভব সুন্দর
-            হাসিটা হাসার কারণ দেয়।
+            অনেকদিন ধরেই কিছু কথা মনের মধ্যে জমে ছিল। কোনো বিশেষ দিনের অপেক্ষায় নয়, কোনো উত্তর
+            পাওয়ার আশাতেও নয়—শুধু সত্যি করে কথাগুলো তোকে জানাতে চেয়েছি। তুই অন্যদের জীবনে যে
+            আনন্দ এত সহজে ছড়িয়ে দিস, জীবন যেন সেই আনন্দই তোকে বারবার ফিরিয়ে দেয়; আর তোকে
+            সবসময় সেই অসম্ভব সুন্দর হাসিটা হাসার কারণ দেয়।
           </p>
           <p>
             তোর সঙ্গে কথা বললেই আমি এমন একটা শান্তি পাই, যেটা আর কোথাও খুঁজে পাই না। কথাটা
@@ -141,9 +141,16 @@ export default function Home() {
             সেই একেবারে সাধারণ কথাগুলো বলতে না পারাটাই সবচেয়ে বেশি মিস করেছি।
           </p>
           <p className="relationshipNote">
-            তাই এই চিঠিটা তোকে ফিরে আসতে বলার জন্য নয়। আমার সঙ্গে থেকে তোকে যা সহ্য করতে হয়েছে,
-            তার পরে তোর কাছে সেই দাবি করার মতো জায়গায় আমি নেই। আমি এখন জানি, তোর জীবনে একজন
-            আছে। কথাটা আমি জানি—শুধু এটুকুই তোকে জানাতে চাইলাম।
+            <span className="noteLabel">একটা কথা আমি এখন নিশ্চিতভাবে জানি</span>
+            তোর জীবনে একজন আছে। তোদের একসঙ্গে কিছু ছবি আমি দেখেছি, তাই কথাটা আর আমার কাছে কোনো
+            অনুমান, কানাঘুষো বা শোনা কথা নয়। আমি এটা জানি—আর শুধু চাই, তুইও জানিস যে আমি জানি।
+          </p>
+          <p>
+            আমি তোকে ছেড়ে দিয়ে এগিয়ে গেছি—এমনটা নয়। তোর প্রতি আমার অনুভূতি এখনও আগের মতোই
+            সত্যি, আর তোর জীবনে অন্য কেউ আছে জেনেও সেটা হঠাৎ করে মুছে যায়নি। এই চিঠিটা কোনো
+            বিদায় নয়। শুধু এতদিন ধরে না-বলা সত্যিটা তোকে জানানো—আমি এখনও তোকে ভালোবাসি।
+            কোনোদিন যদি তোরও মনে হয় আমাদের নিয়ে কথা বলা দরকার, আমি সেই কথোপকথন থেকে পিছিয়ে
+            যাব না।
           </p>
           <p>
             আমি শুধু চাই তুই জানিস—তুই এখনও আমার কাছে ভীষণ মূল্যবান। তোর জন্য আমার যত্ন কোনো
@@ -163,14 +170,14 @@ export default function Home() {
             জায়গা দিতে স্বচ্ছন্দ বোধ করিস, ততটুকু জায়গা থেকেই তোকে চিনে যেতে চাই।
           </p>
           <p className="noReply">এই লেখাটার উত্তর তোকে দিতেই হবে—এমন কোনো প্রত্যাশা আমার নেই। তোর কাছে কিছু চাওয়ার জন্যও এটা লেখা নয়। শুধু আমার মনের কথাগুলো তোর কাছে রেখে যেতে চেয়েছিলাম।</p>
-          <p className="closing">শুভ জন্মদিন, দেবারতি।</p>
+          <p className="closing">ভালো থাকিস, দেবারতি।</p>
           <p className="signature">সবসময় তোর ভালো চাইব।</p>
         </article>
       </section>
 
       <section className="wish">
         <div>
-          <p className="eyebrow">My wish for your next chapter</p>
+          <p className="eyebrow">What I will always wish for you</p>
           <h2>May you always choose<br />the life that chooses you.</h2>
           <p className="wishText">May it be full of soft mornings, brave decisions, loud laughter, people who honour your heart, and a thousand reasons to feel proud of the person you are becoming.</p>
         </div>
@@ -180,7 +187,7 @@ export default function Home() {
         </figure>
       </section>
 
-      <footer><p>Made with a full heart, for Debarati.</p><p>January 12 · Every year, a reason to celebrate you.</p></footer>
+      <footer><p>Made with a full heart, for Debarati.</p><p>Some words deserve to be said honestly.</p></footer>
     </main>
   );
 }

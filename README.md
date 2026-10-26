@@ -1,6 +1,6 @@
-# Birthday Letter
+# A Letter for Debarati
 
-A personal birthday website built with Next.js and ready for Vercel.
+A personal letter website built with Next.js and ready for Vercel.
 
 ## Run locally
 
