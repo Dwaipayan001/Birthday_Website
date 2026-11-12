@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const moments = [
   {
     number: "01",
@@ -37,12 +35,6 @@ export default function Home() {
           </p>
           <a className="textLink" href="#letter">Read my letter <span>↓</span></a>
         </div>
-        <figure className="heroPortrait">
-          <div className="photoFrame">
-            <Image src="/her-portrait.jpeg" alt="Debarati smiling in a black outfit" fill priority sizes="(max-width: 800px) 86vw, 31vw" className="cover" />
-          </div>
-          <figcaption>That smile—the kind that makes everything around it feel lighter.</figcaption>
-        </figure>
       </section>
 
       <div className="ticker" aria-hidden="true">
@@ -62,9 +54,6 @@ export default function Home() {
       </section>
 
       <section className="interlude">
-        <div className="interludePhoto">
-          <Image src="/her-blue.jpeg" alt="Debarati in a blue saree, looking into the distance" fill sizes="(max-width: 800px) 100vw, 50vw" className="cover" />
-        </div>
         <blockquote><span>“</span>Pocket-sized in height, perhaps—but with a presence vast enough to change an entire room, and my entire world.</blockquote>
       </section>
 
@@ -148,14 +137,21 @@ export default function Home() {
             যাব না।
           </p>
           <p>
-            আমি জানি, এমন একটা সময় গেছে যখন তোর সবচেয়ে বেশি কারও পাশে থাকার দরকার ছিল, অথচ
-            যাদের কাছে থাকার আশা করেছিলিস তাদের সবাইকে কাছে পাসনি—আর আমিও তখন সেখানে ছিলাম না।
-            সেই সময়ে তোকে একা অনুভব করতে হয়েছে, এই কথাটা ভাবলে আমার নিজের অনুপস্থিতির জন্য
-            গভীর আক্ষেপ হয়। আমি এটাকে কারও সঙ্গে তুলনা করার বা নিজেকে একমাত্র প্রমাণ করার বিষয়
-            বানাতে চাই না। আমার কাছে নিজেকে শুধরে নেওয়ার মানে বড় বড় কথা নয়; তুই যদি আমাকে সেই সুযোগটুকু
-            দিস, তাহলে ভালো সময়ে নয় শুধু, কঠিন সময়েও ধারাবাহিকভাবে পাশে থেকে দেখাতে চাই যে আমার
-            ওপর ভরসা করা যায়। কোনোদিন জীবন কঠিন হয়ে উঠলে, কোনো চেনা কণ্ঠের দরকার হলে, অথবা শুধু
-            কাউকে নিজের পাশে চাইলে—আমাকে পাবি। এবার আমি হঠাৎ হারিয়ে যেতে চাই না।
+            সবসময় মনে রাখিস—পরিস্থিতি যেমনই হোক, আমি তোর পাশে থাকব। যখন তোর সবচেয়ে বেশি কাউকে
+            দরকার ছিল, তখন যারা পাশে থাকেনি, তাদের মতো আমি হঠাৎ হারিয়ে যেতে চাই না। আর এটা শুধু
+            মুখের কথা বা কোনো মুহূর্তের প্রতিশ্রুতি নয়। তুই আমাকে যতটুকু চিনিস, তাতে এটাও জানিস—আমি
+            শুধু কথা বলে থেমে যাওয়ার মানুষ নই; যা বলি, সেটা কাজ দিয়ে প্রমাণ করতেই বেশি বিশ্বাস করি।
+          </p>
+          <p>
+            গত তিন-চার বছর ধরে নিজের অপরাধবোধের সঙ্গে লড়তে লড়তে শুধু একটাই কথা ভেবেছি—যদি আর
+            একবার সুযোগ পাই, তাহলে যেটা ভেঙে ফেলেছিলাম সেটা ঠিক করার জন্য নিজের সবটুকু দিয়ে চেষ্টা
+            করব। এই সময়ে এমন একটা দিনও যায়নি, যেদিন কোনো না কোনোভাবে তোর কথা আমার মনে পড়েনি।
+            যেদিন চাকরিটা পেলাম, বাবা-মায়ের পর প্রথম যে মানুষটার কথা মনে এসেছিল, সে তুই। মনে
+            হয়েছিল—ইশ, তুই যদি তখন পাশে থাকতিস, খবরটা তোকে বলতে পারতাম। আর কলেজের ইমেলে যখনই
+            চাকরি পাওয়া ছাত্রছাত্রীদের কোনো Excel sheet আসত, আমি সেখানে তোর নাম খুঁজতাম। শুধু
+            এটুকু জানতে চাইতাম যে তুইও চাকরি পেয়েছিস, নিজের পায়ে দাঁড়িয়েছিস, আর তোর যে স্বপ্নগুলো
+            ছিল সেগুলো পূরণ করার পথে এগিয়ে যেতে পারছিস। তোর নামটা দেখলে অন্তত মনে একটু শান্তি
+            পেতাম—তুই ভালো আছিস, তুই এগিয়ে যাচ্ছিস।
           </p>
           <p>
             তুই আমার গোটা পৃথিবী।
@@ -179,10 +175,6 @@ export default function Home() {
           <h2>May you always choose<br />the life that chooses you.</h2>
           <p className="wishText">May it be full of soft mornings, brave decisions, loud laughter, people who honour your heart, and a thousand reasons to feel proud of the person you are becoming.</p>
         </div>
-        <figure className="wishPhoto">
-          <Image src="/her-silver.jpeg" alt="Debarati smiling in a silver saree" fill sizes="(max-width: 800px) 88vw, 36vw" className="cover" />
-          <figcaption>Quietly herself—and effortlessly unforgettable.</figcaption>
-        </figure>
       </section>
 
       <footer><p>Made with a full heart, for Debarati.</p><p>Some words deserve to be said honestly.</p></footer>
